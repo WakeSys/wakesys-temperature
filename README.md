@@ -99,9 +99,6 @@ https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@BRANCH/FILE
 var WAKESYS_SCHOOL_NAME = 'yourparkname'; // Replace with your actual subdomain
 ```
 
-**Examples:**
-- `'wakelake'` → connects to `https://wakelake.wakesys.com/api/sensors.php`
-- `'tngcablepark'` → connects to `https://tngcablepark.wakesys.com/api/sensors.php`
 
 ## API Integration
 
