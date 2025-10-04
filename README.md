@@ -17,7 +17,7 @@ A minimalistic, vanilla JavaScript widget that displays real-time water temperat
 
 ```html
 <!-- CSS -->
-<link href="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@v1.0.0/wakesys-temperature.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@v1.1.0/wakesys-temperature.css" rel="stylesheet">
 
 <!-- HTML Widget -->
 <div class="wakesys-temperature-widget">
@@ -44,7 +44,7 @@ A minimalistic, vanilla JavaScript widget that displays real-time water temperat
     // then your WAKESYS_SCHOOL_NAME = 'tngcablepark'
     var WAKESYS_SCHOOL_NAME = 'yourparkname'; // Replace with your park's subdomain
 </script>
-<script src="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@v1.0.0/wakesys-temperature.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@v1.1.0/wakesys-temperature.js"></script>
 ```
 
 ### CDN Benefits
@@ -87,10 +87,10 @@ https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@BRANCH/FILE
 **Available CDN Links:**
 ```html
 <!-- CSS (Stable Version - Recommended) -->
-<link href="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@v1.0.0/wakesys-temperature.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@v1.1.0/wakesys-temperature.css" rel="stylesheet">
 
 <!-- JavaScript (Stable Version - Recommended) -->
-<script src="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@v1.0.0/wakesys-temperature.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@v1.1.0/wakesys-temperature.js"></script>
 ```
 
 

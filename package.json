@@ -1,6 +1,6 @@
 {
   "name": "wakesys-temperature-widget",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Minimalistic vanilla JavaScript widget for displaying Wakesys water temperature data",
   "main": "wakesys-temperature.js",
   "repository": {
