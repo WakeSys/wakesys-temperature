@@ -24,15 +24,15 @@ class TemperatureMonitor {
         this.updateApiUrl();
         this.fetchTemperature();
 
-        // Auto-refresh every 30 seconds
-        this.startAutoRefresh(30000);
+        // Auto-refresh every 30 minutes
+        this.startAutoRefresh(1800000);
     }
 
     updateApiUrl() {
         this.apiUrl = `https://${this.schoolName}.wakesys.com/api/sensors.php`;
     }
 
-    startAutoRefresh(interval = 30000) {
+    startAutoRefresh(interval = 1800000) {
         if (this.refreshInterval) {
             clearInterval(this.refreshInterval);
         }
