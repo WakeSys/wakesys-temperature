@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Park Website with Temperature Widget</title>
+    
+    <!-- Your existing CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .park-header {
+            text-align: center;
+            background: linear-gradient(135deg, #4CAF50, #2196F3);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .content-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+    
+    <!-- Wakesys Temperature Widget CSS -->
+    <link href="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@main/wakesys-temperature.css" rel="stylesheet">
+</head>
+<body>
+    <div class="park-header">
+        <h1>🏄‍♂️ Awesome Cable Park</h1>
+        <p>Experience the thrill of wakeboarding!</p>
+    </div>
+
+    <div class="content-section">
+        <h2>📍 Park Information</h2>
+        <p>Welcome to our cable park! We offer world-class wakeboarding facilities with professional instruction and equipment rental.</p>
+    </div>
+
+    <div class="content-section">
+        <h2>🌡️ Current Water Temperature</h2>
+        
+        <!-- Wakesys Temperature Widget - Just copy this section! -->
+        <div class="wakesys-temperature-widget">
+            <div class="temperature-display">
+                <span class="loading" id="loading">Loading...</span>
+                <div class="temperature-info" id="temperatureInfo" style="display: none;">
+                    Water temperature: 
+                    <b>
+                        <span id="temperature">&ndash;</span>
+                        <span id="temperatureUnit">&ndash;</span>
+                    </b>
+                    <br>
+                    Last update: <span id="temperatureLastUpdate">&ndash;</span>
+                </div>
+                <div class="error" id="error" style="display: none;">
+                    Temperature data unavailable
+                </div>
+            </div>
+        </div>
+        <!-- End of Wakesys Temperature Widget -->
+        
+    </div>
+
+    <div class="content-section">
+        <h2>🕒 Opening Hours</h2>
+        <p><strong>Monday - Friday:</strong> 10:00 AM - 8:00 PM<br>
+           <strong>Saturday - Sunday:</strong> 9:00 AM - 9:00 PM</p>
+    </div>
+
+    <!-- Wakesys Temperature Widget JavaScript -->
+    <script>
+        // IMPORTANT: Change 'tngcablepark' to your actual Wakesys subdomain
+        var WAKESYS_SCHOOL_NAME = 'tngcablepark'; // Replace with your park's subdomain
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@main/wakesys-temperature.js"></script>
+</body>
+</html>

@@ -148,13 +148,19 @@ Minimal CSS that inherits your website's styling:
 - **Modern browsers** with ES6+ support
 - Chrome 60+, Firefox 55+, Safari 12+, Edge 79+
 
+## Live Example
+
+See `integration-example.html` for a complete example of how the widget integrates into a real park website.
+
 ## Repository Structure
 
 ```
 wakesys-temperature/
-├── index.html                 # Example implementation
+├── index.html                 # Basic widget demo
+├── integration-example.html   # Complete park website example
 ├── wakesys-temperature.js     # Widget JavaScript
 ├── wakesys-temperature.css    # Minimal widget styles
+├── package.json              # Package metadata
 ├── README.md                  # This documentation
 ├── LICENSE                    # License file
 └── .gitignore                # Git ignore rules
