@@ -17,7 +17,7 @@ A minimalistic, vanilla JavaScript widget that displays real-time water temperat
 
 ```html
 <!-- CSS -->
-<link href="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@main/wakesys-temperature.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@v1.0.0/wakesys-temperature.css" rel="stylesheet">
 
 <!-- HTML Widget -->
 <div class="wakesys-temperature-widget">
@@ -42,7 +42,7 @@ A minimalistic, vanilla JavaScript widget that displays real-time water temperat
 <script>
     var WAKESYS_SCHOOL_NAME = 'yourparkname'; // Replace with your park's subdomain
 </script>
-<script src="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@main/wakesys-temperature.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@v1.0.0/wakesys-temperature.js"></script>
 ```
 
 ### CDN Benefits
@@ -84,17 +84,27 @@ https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@BRANCH/FILE
 
 **Available CDN Links:**
 ```html
-<!-- CSS -->
-<link href="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@main/wakesys-temperature.css" rel="stylesheet">
+<!-- CSS (Stable Version - Recommended) -->
+<link href="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@v1.0.0/wakesys-temperature.css" rel="stylesheet">
 
-<!-- JavaScript -->
-<script src="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@main/wakesys-temperature.js"></script>
+<!-- JavaScript (Stable Version - Recommended) -->
+<script src="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@v1.0.0/wakesys-temperature.js"></script>
 ```
 
-### Versioning
-- Use `@main` for latest version (always up-to-date)
-- Use `@v1.0.0` for specific version (stable, won't change)
-- Use `@latest` for latest release tag
+### Versioning Options
+
+**🎯 Recommended for Production:**
+- `@v1.0.0` - Specific version (stable, won't change, cache-friendly)
+
+**⚠️ Alternative Options:**
+- `@main` - Latest development version (may have breaking changes)
+- `@latest` - Latest release tag (automatically updates)
+
+**Why use version tags?**
+- ✅ **Stability** - Your site won't break from unexpected updates
+- ✅ **Performance** - Better CDN caching with specific versions
+- ✅ **Predictability** - You control when to update
+- ✅ **Debugging** - Easy to identify which version you're using
 
 ## Configuration
 
