@@ -91,20 +91,6 @@ https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@BRANCH/FILE
 <script src="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@v1.0.0/wakesys-temperature.js"></script>
 ```
 
-### Versioning Options
-
-**🎯 Recommended for Production:**
-- `@v1.0.0` - Specific version (stable, won't change, cache-friendly)
-
-**⚠️ Alternative Options:**
-- `@main` - Latest development version (may have breaking changes)
-- `@latest` - Latest release tag (automatically updates)
-
-**Why use version tags?**
-- ✅ **Stability** - Your site won't break from unexpected updates
-- ✅ **Performance** - Better CDN caching with specific versions
-- ✅ **Predictability** - You control when to update
-- ✅ **Debugging** - Easy to identify which version you're using
 
 ## Configuration
 
