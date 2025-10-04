@@ -40,6 +40,8 @@ A minimalistic, vanilla JavaScript widget that displays real-time water temperat
 
 <!-- Configuration & JavaScript -->
 <script>
+    // Example: if your Wakesys address is https://tngcablepark.wakesys.com
+    // then your WAKESYS_SCHOOL_NAME = 'tngcablepark'
     var WAKESYS_SCHOOL_NAME = 'yourparkname'; // Replace with your park's subdomain
 </script>
 <script src="https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@v1.0.0/wakesys-temperature.js"></script>
@@ -96,6 +98,8 @@ https://cdn.jsdelivr.net/gh/WakeSys/wakesys-temperature@BRANCH/FILE
 
 **Required:** Set your park's Wakesys subdomain:
 ```javascript
+// Example: if your Wakesys address is https://tngcablepark.wakesys.com
+// then your WAKESYS_SCHOOL_NAME = 'tngcablepark'
 var WAKESYS_SCHOOL_NAME = 'yourparkname'; // Replace with your actual subdomain
 ```
 
