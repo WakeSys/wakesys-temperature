@@ -1,0 +1,32 @@
+{
+  "name": "wakesys-temperature-widget",
+  "version": "1.0.0",
+  "description": "Minimalistic vanilla JavaScript widget for displaying Wakesys water temperature data",
+  "main": "wakesys-temperature.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WakeSys/wakesys-temperature.git"
+  },
+  "keywords": [
+    "wakesys",
+    "temperature",
+    "widget",
+    "vanilla-javascript",
+    "cable-park",
+    "water-temperature",
+    "jsonp",
+    "cdn"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WakeSys/wakesys-temperature/issues"
+  },
+  "homepage": "https://github.com/WakeSys/wakesys-temperature#readme",
+  "files": [
+    "wakesys-temperature.js",
+    "wakesys-temperature.css",
+    "README.md"
+  ],
+  "jsdelivr": "wakesys-temperature.js"
+}
