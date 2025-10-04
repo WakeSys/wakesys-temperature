@@ -1,0 +1,37 @@
+/* Wakesys Temperature Widget - Minimalistic styles for easy integration */
+
+.wakesys-temperature-widget {
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.wakesys-temperature-widget .temperature-display {
+    padding: 10px;
+}
+
+.wakesys-temperature-widget .loading {
+    color: #666;
+    font-style: italic;
+}
+
+.wakesys-temperature-widget .loading::after {
+    content: '...';
+    animation: wakesys-dots 1.5s steps(4, end) infinite;
+}
+
+.wakesys-temperature-widget .error {
+    color: #d32f2f;
+    font-style: italic;
+}
+
+.wakesys-temperature-widget .temperature-info {
+    /* Inherits parent styles - no additional styling needed */
+}
+
+@keyframes wakesys-dots {
+    0%, 25% { content: '.'; }
+    26%, 50% { content: '..'; }
+    51%, 75% { content: '...'; }
+    76%, 100% { content: ''; }
+}

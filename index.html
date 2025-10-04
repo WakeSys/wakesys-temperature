@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Temperature</title>
+    <link href="wakesys-temperature.css" rel="stylesheet">
+</head>
+<body>
+    <div class="wakesys-temperature-widget">
+        <div class="temperature-display">
+            <span class="loading" id="loading">Loading...</span>
+            <div class="temperature-info" id="temperatureInfo" style="display: none;">
+                Water temperature: 
+                <b>
+                    <span id="temperature">&ndash;</span>
+                    <span id="temperatureUnit">&ndash;</span>
+                </b>
+                <br>
+                Last update: <span id="temperatureLastUpdate">&ndash;</span>
+            </div>
+            <div class="error" id="error" style="display: none;">
+                Temperature data unavailable
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration - Change this to your park's subdomain
+        var WAKESYS_SCHOOL_NAME = 'tngcablepark'; // Replace 'wakelake' with your park's subdomain
+    </script>
+    <script src="wakesys-temperature.js"></script>
+</body>
+</html>
