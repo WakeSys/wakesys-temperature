@@ -8,7 +8,7 @@ A minimalistic, vanilla JavaScript widget that displays real-time water temperat
 - **CDN Hosted**: Available via jsDelivr CDN for instant integration
 - **Minimalistic Design**: Clean, simple styling that inherits from parent website
 - **Cross-Origin Support**: JSONP fallback for cross-origin API requests  
-- **Auto-refresh**: Updates temperature data every 30 seconds
+- **Auto-refresh**: Updates temperature data every 30 minutes
 - **Easy Integration**: Simple copy-paste integration into any website
 
 ## CDN Integration (Recommended)
@@ -119,7 +119,7 @@ var WAKESYS_SCHOOL_NAME = 'yourparkname'; // Replace with your actual subdomain
 
 **Data Processing:**
 - Decimal separator converted from `.` to `,` (European format)
-- Auto-refresh every 30 seconds
+- Auto-refresh every 30 minutes
 - JSONP fallback for cross-origin requests
 
 ## Styling
